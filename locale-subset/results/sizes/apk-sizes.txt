@@ -1,0 +1,4 @@
+localeprobe-sdk.apk: apk 65743029 B; unzip -l total: 65587402 B; lib_FoundationICU.so in apk: 40042536 B (method Stored); gzip -9: 23956052 B
+localeprobe-baseline.apk: apk 65743029 B; unzip -l total: 65587598 B; lib_FoundationICU.so in apk: 40042720 B (method Stored); gzip -9: 23956093 B
+localeprobe-top10.apk: apk 49359029 B; unzip -l total: 49212550 B; lib_FoundationICU.so in apk: 23667680 B (method Stored); gzip -9: 18906885 B
+localeprobe-en.apk: apk 45836469 B; unzip -l total: 45694530 B; lib_FoundationICU.so in apk: 20149664 B (method Stored); gzip -9: 17498659 B

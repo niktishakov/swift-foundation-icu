@@ -1,0 +1,482 @@
+global availableIdentifiers=316 NSLocale=316 ko=false en_GB=true zh_Hant_HK=true
+global isoCurrencies=308 isoLanguages=615 isoCountries=292
+en_US props dec=. grp=, cur=USD/$ quote=“” firstWeekday=1
+en_US names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+en_US date 4/3 Friday, January 15, 2027 at 8:00:00 AM GMT
+en_US date 2/1 Jan 15, 2027 at 8:00 AM
+en_US date 1/0 1/15/27
+en_US template MMMM d, y 'at' h:mm a January 15, 2027 at 8:00 AM months=["January", "February"] weekdays=["Sun", "Mon"]
+en_US num 1 1,234,567.891
+en_US num 2 $1,234,567.89
+en_US num 3 123,456,789%
+en_US num 4 1.234567891E6
+en_US num 5 one million two hundred thirty-four thousand five hundred sixty-seven point eight nine one
+en_US num 6 1,234,568th
+en_US sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+en_US sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+en_US case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+en_GB props dec=. grp=, cur=GBP/£ quote=“” firstWeekday=2
+en_GB names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+en_GB date 4/3 Friday, 15 January 2027 at 08:00:00 GMT
+en_GB date 2/1 15 Jan 2027 at 08:00
+en_GB date 1/0 15/01/2027
+en_GB template d MMMM y 'at' HH:mm 15 January 2027 at 08:00 months=["January", "February"] weekdays=["Sun", "Mon"]
+en_GB num 1 1,234,567.891
+en_GB num 2 £1,234,567.89
+en_GB num 3 123,456,789%
+en_GB num 4 1.234567891E6
+en_GB num 5 one million two hundred thirty-four thousand five hundred sixty-seven point eight nine one
+en_GB num 6 1,234,568th
+en_GB sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+en_GB sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+en_GB case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+en_IN props dec=. grp=, cur=INR/₹ quote=“” firstWeekday=1
+en_IN names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+en_IN date 4/3 Friday, 15 January 2027 at 8:00:00 AM GMT
+en_IN date 2/1 15 Jan 2027 at 8:00 AM
+en_IN date 1/0 15/01/27
+en_IN template d MMMM y 'at' h:mm a 15 January 2027 at 8:00 AM months=["January", "February"] weekdays=["Sun", "Mon"]
+en_IN num 1 1,234,567.891
+en_IN num 2 ₹1,234,567.89
+en_IN num 3 123,456,789%
+en_IN num 4 1.234567891E6
+en_IN num 5 twelve lakh thirty-four thousand five hundred sixty-seven point eight nine one
+en_IN num 6 1,234,568th
+en_IN sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+en_IN sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+en_IN case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+en_US_POSIX props dec=. grp=, cur=USD/$ quote=“” firstWeekday=1
+en_US_POSIX names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+en_US_POSIX date 4/3 Friday, January 15, 2027 at 8:00:00 AM GMT
+en_US_POSIX date 2/1 Jan 15, 2027 at 8:00 AM
+en_US_POSIX date 1/0 1/15/27
+en_US_POSIX template MMMM d, y 'at' h:mm a January 15, 2027 at 8:00 AM months=["January", "February"] weekdays=["Sun", "Mon"]
+en_US_POSIX num 1 1,234,567.891
+en_US_POSIX num 2 $ 1,234,567.89
+en_US_POSIX num 3 123,456,789%
+en_US_POSIX num 4 1E+006
+en_US_POSIX num 5 one million two hundred thirty-four thousand five hundred sixty-seven point eight nine one
+en_US_POSIX num 6 1,234,568th
+en_US_POSIX sort ["Ångström", "Äpfel", "Iİ", "Zebra", "ähnlich", "apple", "čaj", "ch", "cz", "file10", "file2", "zebra", "ıi", "ไทย", "한국", "中国", "日本"]
+en_US_POSIX sortCI ["Ångström", "Äpfel", "Iİ", "Zebra", "ähnlich", "apple", "čaj", "ch", "cz", "file10", "file2", "zebra", "ıi", "ไทย", "한국", "中国", "日本"]
+en_US_POSIX case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+es_ES props dec=, grp=. cur=EUR/€ quote=“” firstWeekday=2
+es_ES names lang(de)=alemán region(JP)=Japón cur(EUR)=euro id(fr_CA)=francés (Canadá)
+es_ES date 4/3 viernes, 15 de enero de 2027, 8:00:00 GMT
+es_ES date 2/1 15 ene 2027, 8:00
+es_ES date 1/0 15/1/27
+es_ES template d 'de' MMMM 'de' y, H:mm 15 de enero de 2027, 8:00 months=["enero", "febrero"] weekdays=["dom", "lun"]
+es_ES num 1 1.234.567,891
+es_ES num 2 1.234.567,89 €
+es_ES num 3 123.456.789 %
+es_ES num 4 1,234567891E6
+es_ES num 5 un millón doscientos treinta y cuatro mil quinientos sesenta y siete coma ocho nueve uno
+es_ES num 6 1.234.568.º
+es_ES sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+es_ES sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+es_ES case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+es_MX props dec=. grp=, cur=MXN/$ quote=“” firstWeekday=1
+es_MX names lang(de)=alemán region(JP)=Japón cur(EUR)=euro id(fr_CA)=francés (Canadá)
+es_MX date 4/3 viernes, 15 de enero de 2027, 8:00:00 a.m. GMT
+es_MX date 2/1 15 ene 2027, 8:00 a.m.
+es_MX date 1/0 15/01/27
+es_MX template d 'de' MMMM 'de' y, h:mm a 15 de enero de 2027, 8:00 a.m. months=["enero", "febrero"] weekdays=["dom", "lun"]
+es_MX num 1 1,234,567.891
+es_MX num 2 $1,234,567.89
+es_MX num 3 123,456,789%
+es_MX num 4 1.234567891E6
+es_MX num 5 un millón doscientos treinta y cuatro mil quinientos sesenta y siete punto ocho nueve uno
+es_MX num 6 1,234,568º.
+es_MX sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+es_MX sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+es_MX case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+es_419 props dec=. grp=, cur=nil/¤ quote=“” firstWeekday=2
+es_419 names lang(de)=alemán region(JP)=Japón cur(EUR)=euro id(fr_CA)=francés (Canadá)
+es_419 date 4/3 viernes, 15 de enero de 2027, 8:00:00 a.m. GMT
+es_419 date 2/1 15 ene 2027, 8:00 a.m.
+es_419 date 1/0 15/1/27
+es_419 template d 'de' MMMM 'de' y, h:mm a 15 de enero de 2027, 8:00 a.m. months=["enero", "febrero"] weekdays=["dom", "lun"]
+es_419 num 1 1,234,567.891
+es_419 num 2 ¤1,234,567.89
+es_419 num 3 123,456,789%
+es_419 num 4 1.234567891E6
+es_419 num 5 un millón doscientos treinta y cuatro mil quinientos sesenta y siete punto ocho nueve uno
+es_419 num 6 1,234,568º.
+es_419 sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+es_419 sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+es_419 case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+fr_FR props dec=, grp=  cur=EUR/€ quote=«» firstWeekday=2
+fr_FR names lang(de)=allemand region(JP)=Japon cur(EUR)=euro id(fr_CA)=français (Canada)
+fr_FR date 4/3 vendredi 15 janvier 2027 à 08:00:00 UTC
+fr_FR date 2/1 15 janv. 2027 à 08:00
+fr_FR date 1/0 15/01/2027
+fr_FR template d MMMM y 'à' HH:mm 15 janvier 2027 à 08:00 months=["janvier", "février"] weekdays=["dim.", "lun."]
+fr_FR num 1 1 234 567,891
+fr_FR num 2 1 234 567,89 €
+fr_FR num 3 123 456 789 %
+fr_FR num 4 1,234567891E6
+fr_FR num 5 un million deux cent trente-quatre mille cinq cent soixante-sept virgule huit neuf un
+fr_FR num 6 1 234 568e
+fr_FR sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+fr_FR sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+fr_FR case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+fr_CA props dec=, grp=  cur=CAD/$ quote=«» firstWeekday=1
+fr_CA names lang(de)=allemand region(JP)=Japon cur(EUR)=euro id(fr_CA)=français (Canada)
+fr_CA date 4/3 vendredi 15 janvier 2027 à 08:00:00 UTC
+fr_CA date 2/1 15 janv. 2027 à 08:00
+fr_CA date 1/0 2027-01-15
+fr_CA template d MMMM y 'à' HH:mm 15 janvier 2027 à 08:00 months=["janvier", "février"] weekdays=["dim.", "lun."]
+fr_CA num 1 1 234 567,891
+fr_CA num 2 1 234 567,89 $
+fr_CA num 3 123 456 789 %
+fr_CA num 4 1,234567891E6
+fr_CA num 5 un million deux cent trente-quatre mille cinq cent soixante-sept virgule huit neuf un
+fr_CA num 6 1 234 568e
+fr_CA sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+fr_CA sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+fr_CA case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+de_DE props dec=, grp=. cur=EUR/€ quote=„“ firstWeekday=2
+de_DE names lang(de)=Deutsch region(JP)=Japan cur(EUR)=Euro id(fr_CA)=Französisch (Kanada)
+de_DE date 4/3 Freitag, 15. Januar 2027 um 08:00:00 GMT
+de_DE date 2/1 15.01.2027, 08:00
+de_DE date 1/0 15.01.27
+de_DE template d. MMMM y 'um' HH:mm 15. Januar 2027 um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+de_DE num 1 1.234.567,891
+de_DE num 2 1.234.567,89 €
+de_DE num 3 123.456.789 %
+de_DE num 4 1,234567891E6
+de_DE num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+de_DE num 6 1.234.568.
+de_DE sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+de_DE sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+de_DE case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+de_CH props dec=. grp=’ cur=CHF/CHF quote=„“ firstWeekday=2
+de_CH names lang(de)=Deutsch region(JP)=Japan cur(EUR)=Euro id(fr_CA)=Französisch (Kanada)
+de_CH date 4/3 Freitag, 15. Januar 2027 um 08:00:00 GMT
+de_CH date 2/1 15.01.2027, 08:00
+de_CH date 1/0 15.01.27
+de_CH template d. MMMM y 'um' HH:mm 15. Januar 2027 um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+de_CH num 1 1’234’567.891
+de_CH num 2 CHF 1’234’567.89
+de_CH num 3 123’456’789%
+de_CH num 4 1.234567891E6
+de_CH num 5 eine Million zwei­hundert­vier­und­dreissig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+de_CH num 6 1’234’568.
+de_CH sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+de_CH sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+de_CH case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+it_IT props dec=, grp=. cur=EUR/€ quote=«» firstWeekday=2
+it_IT names lang(de)=tedesco region(JP)=Giappone cur(EUR)=euro id(fr_CA)=francese (Canada)
+it_IT date 4/3 venerdì 15 gennaio 2027 alle ore 08:00:00 GMT
+it_IT date 2/1 15 gen 2027, 08:00
+it_IT date 1/0 15/01/27
+it_IT template d MMMM y 'alle' 'ore' HH:mm 15 gennaio 2027 alle ore 08:00 months=["gennaio", "febbraio"] weekdays=["dom", "lun"]
+it_IT num 1 1.234.567,891
+it_IT num 2 1.234.567,89 €
+it_IT num 3 123.456.789%
+it_IT num 4 1,234567891E6
+it_IT num 5 un milione due­cento­trenta­quattro­mila­cinque­cento­sessanta­sette virgola otto nove uno
+it_IT num 6 1.234.568º
+it_IT sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+it_IT sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+it_IT case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+pt_BR props dec=, grp=. cur=BRL/R$ quote=“” firstWeekday=1
+pt_BR names lang(de)=alemão region(JP)=Japão cur(EUR)=Euro id(fr_CA)=francês (Canadá)
+pt_BR date 4/3 sexta-feira, 15 de janeiro de 2027 às 08:00:00 GMT
+pt_BR date 2/1 15 de jan. de 2027, 08:00
+pt_BR date 1/0 15/01/2027
+pt_BR template d 'de' MMMM 'de' y 'às' HH:mm 15 de janeiro de 2027 às 08:00 months=["janeiro", "fevereiro"] weekdays=["dom.", "seg."]
+pt_BR num 1 1.234.567,891
+pt_BR num 2 R$ 1.234.567,89
+pt_BR num 3 123.456.789%
+pt_BR num 4 1,234567891E6
+pt_BR num 5 um milhão duzentos e trinta e quatro mil quinhentos e sessenta e sete vírgula oito nove um
+pt_BR num 6 1.234.568º
+pt_BR sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+pt_BR sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+pt_BR case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+pt_PT props dec=, grp=  cur=EUR/€ quote=«» firstWeekday=1
+pt_PT names lang(de)=alemão region(JP)=Japão cur(EUR)=euro id(fr_CA)=francês (Canadá)
+pt_PT date 4/3 sexta-feira, 15 de janeiro de 2027 às 08:00:00 GMT
+pt_PT date 2/1 15/01/2027, 08:00
+pt_PT date 1/0 15/01/27
+pt_PT template d 'de' MMMM 'de' y 'às' HH:mm 15 de janeiro de 2027 às 08:00 months=["janeiro", "fevereiro"] weekdays=["dom.", "seg."]
+pt_PT num 1 1 234 567,891
+pt_PT num 2 1 234 567,89 €
+pt_PT num 3 123 456 789%
+pt_PT num 4 1,234567891E6
+pt_PT num 5 um milhão duzentos e trinta e quatro mil quinhentos e sessenta e sete vírgula oito nove um
+pt_PT num 6 1 234 568º
+pt_PT sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+pt_PT sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+pt_PT case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+ru_RU props dec=, grp=  cur=RUB/₽ quote=«» firstWeekday=2
+ru_RU names lang(de)=немецкий region(JP)=Япония cur(EUR)=евро id(fr_CA)=французский (Канада)
+ru_RU date 4/3 пятница, 15 января 2027 г. в 08:00:00 GMT
+ru_RU date 2/1 15 янв. 2027 г., 08:00
+ru_RU date 1/0 15.01.2027
+ru_RU template d MMMM y 'г'. 'в' HH:mm 15 января 2027 г. в 08:00 months=["января", "февраля"] weekdays=["Вс", "Пн"]
+ru_RU num 1 1 234 567,891
+ru_RU num 2 1 234 567,89 ₽
+ru_RU num 3 123 456 789 %
+ru_RU num 4 1,234567891E6
+ru_RU num 5 один миллион двести тридцать четыре тысячи пятьсот шестьдесят семь целых восемьдесят девять миллионов сто тысяч стомиллионных
+ru_RU num 6 1 234 568
+ru_RU sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+ru_RU sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+ru_RU case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+ja_JP props dec=. grp=, cur=JPY/¥ quote=「」 firstWeekday=1
+ja_JP names lang(de)=ドイツ語 region(JP)=日本 cur(EUR)=ユーロ id(fr_CA)=フランス語（カナダ）
+ja_JP date 4/3 2027年1月15日 金曜日 8:00:00 GMT
+ja_JP date 2/1 2027/01/15 8:00
+ja_JP date 1/0 2027/01/15
+ja_JP template y年M月d日 H:mm 2027年1月15日 8:00 months=["1月", "2月"] weekdays=["日", "月"]
+ja_JP num 1 1,234,567.891
+ja_JP num 2 ¥1,234,568
+ja_JP num 3 123,456,789%
+ja_JP num 4 1.234567891E6
+ja_JP num 5 百二十三万四千五百六十七・八九一
+ja_JP num 6 第1,234,568
+ja_JP sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "中国", "日本", "ไทย", "한국"]
+ja_JP sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "中国", "日本", "ไทย", "한국"]
+ja_JP case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+zh_Hans_CN props dec=. grp=, cur=CNY/¥ quote=“” firstWeekday=1
+zh_Hans_CN names lang(de)=德语 region(JP)=日本 cur(EUR)=欧元 id(fr_CA)=法语（加拿大）
+zh_Hans_CN date 4/3 2027年1月15日 星期五 GMT 08:00:00
+zh_Hans_CN date 2/1 2027年1月15日 08:00
+zh_Hans_CN date 1/0 2027/1/15
+zh_Hans_CN template y年M月d日 HH:mm 2027年1月15日 08:00 months=["一月", "二月"] weekdays=["周日", "周一"]
+zh_Hans_CN num 1 1,234,567.891
+zh_Hans_CN num 2 ¥1,234,567.89
+zh_Hans_CN num 3 123,456,789%
+zh_Hans_CN num 4 1.234567891E6
+zh_Hans_CN num 5 一百二十三万四千五百六十七点八九一
+zh_Hans_CN num 6 第1,234,568
+zh_Hans_CN sort ["日本", "中国", "ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국"]
+zh_Hans_CN sortCI ["日本", "中国", "ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국"]
+zh_Hans_CN case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+zh_Hant_TW props dec=. grp=, cur=TWD/$ quote=「」 firstWeekday=1
+zh_Hant_TW names lang(de)=德文 region(JP)=日本 cur(EUR)=歐元 id(fr_CA)=法文（加拿大）
+zh_Hant_TW date 4/3 2027年1月15日 星期五 GMT 上午8:00:00
+zh_Hant_TW date 2/1 2027年1月15日 上午8:00
+zh_Hant_TW date 1/0 2027/1/15
+zh_Hant_TW template y年M月d日 ah:mm 2027年1月15日 上午8:00 months=["1月", "2月"] weekdays=["週日", "週一"]
+zh_Hant_TW num 1 1,234,567.891
+zh_Hant_TW num 2 $1,234,567.89
+zh_Hant_TW num 3 123,456,789%
+zh_Hant_TW num 4 1.234567891E6
+zh_Hant_TW num 5 一百二十三萬四千五百六十七點八九一
+zh_Hant_TW num 6 第1,234,568
+zh_Hant_TW sort ["中国", "日本", "ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국"]
+zh_Hant_TW sortCI ["中国", "日本", "ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국"]
+zh_Hant_TW case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+zh_Hant_HK props dec=. grp=, cur=HKD/HK$ quote=「」 firstWeekday=1
+zh_Hant_HK names lang(de)=德文 region(JP)=日本 cur(EUR)=歐元 id(fr_CA)=法文（加拿大）
+zh_Hant_HK date 4/3 2027年1月15日 星期五 上午8:00:00 [GMT]
+zh_Hant_HK date 2/1 2027年1月15日 上午8:00
+zh_Hant_HK date 1/0 15/1/2027
+zh_Hant_HK template y年M月d日 ah:mm 2027年1月15日 上午8:00 months=["1月", "2月"] weekdays=["週日", "週一"]
+zh_Hant_HK num 1 1,234,567.891
+zh_Hant_HK num 2 HK$1,234,567.89
+zh_Hant_HK num 3 123,456,789%
+zh_Hant_HK num 4 1.234567891E6
+zh_Hant_HK num 5 一百二十三萬四千五百六十七點八九一
+zh_Hant_HK num 6 第1,234,568
+zh_Hant_HK sort ["中国", "日本", "ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국"]
+zh_Hant_HK sortCI ["中国", "日本", "ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국"]
+zh_Hant_HK case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+ar_EG props dec=٫ grp=٬ cur=EGP/ج.م.‏ quote="" firstWeekday=7
+ar_EG names lang(de)=الألمانية region(JP)=اليابان cur(EUR)=يورو id(fr_CA)=الفرنسية (كندا)
+ar_EG date 4/3 الجمعة، ١٥ يناير، ٢٠٢٧، ٨:٠٠:٠٠ ص غرينتش
+ar_EG date 2/1 ١٥‏/٠١‏/٢٠٢٧، ٨:٠٠ ص
+ar_EG date 1/0 ١٥‏/١‏/٢٠٢٧
+ar_EG template d MMMM، y، h:mm a ١٥ يناير، ٢٠٢٧، ٨:٠٠ ص months=["يناير", "فبراير"] weekdays=["أحد", "اثنين"]
+ar_EG num 1 ١٬٢٣٤٬٥٦٧٫٨٩١
+ar_EG num 2 ‏١٬٢٣٤٬٥٦٧٫٨٩ ج.م.‏
+ar_EG num 3 ١٢٣٬٤٥٦٬٧٨٩٪؜
+ar_EG num 4 ١٫٢٣٤٥٦٧٨٩١أس٦
+ar_EG num 5 مليون ومائتان وأربعة وثلاثون ألف وخمسة مائة وسبعة وستون فاصل ثمانية تسعة واحد
+ar_EG num 6 ١٬٢٣٤٬٥٦٨
+ar_EG sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+ar_EG sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+ar_EG case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+ar_SA props dec=٫ grp=٬ cur=SAR/ر.س.‏ quote="" firstWeekday=1
+ar_SA names lang(de)=الألمانية region(JP)=اليابان cur(EUR)=يورو id(fr_CA)=الفرنسية (كندا)
+ar_SA date 4/3 الجمعة، ٧ شعبان، ١٤٤٨ هـ، ٨:٠٠:٠٠ ص غرينتش
+ar_SA date 2/1 ٧ شعبان، ١٤٤٨ هـ، ٨:٠٠ ص
+ar_SA date 1/0 ٧ شعبان، ١٤٤٨ هـ
+ar_SA template d MMMM، y G، h:mm a ٧ شعبان، ١٤٤٨ هـ، ٨:٠٠ ص months=["محرم", "صفر"] weekdays=["أحد", "اثنين"]
+ar_SA num 1 ١٬٢٣٤٬٥٦٧٫٨٩١
+ar_SA num 2 ‏١٬٢٣٤٬٥٦٧٫٨٩ ر.س.‏
+ar_SA num 3 ١٢٣٬٤٥٦٬٧٨٩٪؜
+ar_SA num 4 ١٫٢٣٤٥٦٧٨٩١أس٦
+ar_SA num 5 مليون ومائتان وأربعة وثلاثون ألف وخمسة مائة وسبعة وستون فاصل ثمانية تسعة واحد
+ar_SA num 6 ١٬٢٣٤٬٥٦٨
+ar_SA sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+ar_SA sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+ar_SA case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+ko_KR props dec=, grp=. cur=KRW/₩ quote=„“ firstWeekday=1
+ko_KR names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+ko_KR date 4/3 Freitag, 15. Januar 2027 um 8:00:00 AM GMT
+ko_KR date 2/1 15.01.2027, 8:00 AM
+ko_KR date 1/0 15.01.27
+ko_KR template d. MMMM y 'um' h:mm a 15. Januar 2027 um 8:00 AM months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+ko_KR num 1 1.234.567,891
+ko_KR num 2 1.234.568 ₩
+ko_KR num 3 123.456.789 %
+ko_KR num 4 1,234567891E6
+ko_KR num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+ko_KR num 6 1.234.568.
+ko_KR sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+ko_KR sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+ko_KR case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+tr_TR props dec=, grp=. cur=TRY/TRY quote=„“ firstWeekday=2
+tr_TR names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+tr_TR date 4/3 Freitag, 15. Januar 2027 um 08:00:00 GMT
+tr_TR date 2/1 15.01.2027, 08:00
+tr_TR date 1/0 15.01.27
+tr_TR template d. MMMM y 'um' HH:mm 15. Januar 2027 um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+tr_TR num 1 1.234.567,891
+tr_TR num 2 1.234.567,89 TRY
+tr_TR num 3 123.456.789 %
+tr_TR num 4 1,234567891E6
+tr_TR num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+tr_TR num 6 1.234.568.
+tr_TR sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+tr_TR sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+tr_TR case up=İSTANBUL ILIK STRASSE low=istanbul ışık cap=İstanbul İjssel
+he_IL props dec=, grp=. cur=ILS/₪ quote=„“ firstWeekday=1
+he_IL names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+he_IL date 4/3 Freitag, 15. Januar 2027 um 08:00:00 GMT
+he_IL date 2/1 15.01.2027, 08:00
+he_IL date 1/0 15.01.27
+he_IL template d. MMMM y 'um' HH:mm 15. Januar 2027 um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+he_IL num 1 1.234.567,891
+he_IL num 2 1.234.567,89 ₪
+he_IL num 3 123.456.789 %
+he_IL num 4 1,234567891E6
+he_IL num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+he_IL num 6 1.234.568.
+he_IL sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+he_IL sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+he_IL case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+nl_NL props dec=, grp=. cur=EUR/€ quote=„“ firstWeekday=2
+nl_NL names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+nl_NL date 4/3 Freitag, 15. Januar 2027 um 08:00:00 GMT
+nl_NL date 2/1 15.01.2027, 08:00
+nl_NL date 1/0 15.01.27
+nl_NL template d. MMMM y 'um' HH:mm 15. Januar 2027 um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+nl_NL num 1 1.234.567,891
+nl_NL num 2 1.234.567,89 €
+nl_NL num 3 123.456.789 %
+nl_NL num 4 1,234567891E6
+nl_NL num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+nl_NL num 6 1.234.568.
+nl_NL sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+nl_NL sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+nl_NL case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul IJssel
+pl_PL props dec=, grp=. cur=PLN/PLN quote=„“ firstWeekday=2
+pl_PL names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+pl_PL date 4/3 Freitag, 15. Januar 2027 um 08:00:00 GMT
+pl_PL date 2/1 15.01.2027, 08:00
+pl_PL date 1/0 15.01.27
+pl_PL template d. MMMM y 'um' HH:mm 15. Januar 2027 um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+pl_PL num 1 1.234.567,891
+pl_PL num 2 1.234.567,89 PLN
+pl_PL num 3 123.456.789 %
+pl_PL num 4 1,234567891E6
+pl_PL num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+pl_PL num 6 1.234.568.
+pl_PL sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+pl_PL sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+pl_PL case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+sv_SE props dec=, grp=. cur=SEK/SEK quote=„“ firstWeekday=2
+sv_SE names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+sv_SE date 4/3 Freitag, 15. Januar 2027 um 08:00:00 GMT
+sv_SE date 2/1 15.01.2027, 08:00
+sv_SE date 1/0 15.01.27
+sv_SE template d. MMMM y 'um' HH:mm 15. Januar 2027 um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+sv_SE num 1 1.234.567,891
+sv_SE num 2 1.234.567,89 SEK
+sv_SE num 3 123.456.789 %
+sv_SE num 4 1,234567891E6
+sv_SE num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+sv_SE num 6 1.234.568.
+sv_SE sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+sv_SE sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+sv_SE case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+hi_IN props dec=, grp=. cur=INR/₹ quote=„“ firstWeekday=1
+hi_IN names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+hi_IN date 4/3 Freitag, 15. Januar 2027 um 8:00:00 morgens GMT
+hi_IN date 2/1 15.01.2027, 8:00 morgens
+hi_IN date 1/0 15.01.27
+hi_IN template d. MMMM y 'um' h:mm a 15. Januar 2027 um 8:00 AM months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+hi_IN num 1 1.234.567,891
+hi_IN num 2 1.234.567,89 ₹
+hi_IN num 3 123.456.789 %
+hi_IN num 4 1,234567891E6
+hi_IN num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+hi_IN num 6 1.234.568.
+hi_IN sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+hi_IN sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+hi_IN case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+th_TH props dec=, grp=. cur=THB/฿ quote=„“ firstWeekday=1
+th_TH names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+th_TH date 4/3 Freitag, 15. Januar 2570 BE um 08:00:00 GMT
+th_TH date 2/1 15.01.2570 BE, 08:00
+th_TH date 1/0 15.01.2570 BE
+th_TH template d. MMMM y G 'um' HH:mm 15. Januar 2570 BE um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+th_TH num 1 1.234.567,891
+th_TH num 2 1.234.567,89 ฿
+th_TH num 3 123.456.789 %
+th_TH num 4 1,234567891E6
+th_TH num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+th_TH num 6 1.234.568.
+th_TH sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+th_TH sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+th_TH case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+uk_UA props dec=, grp=. cur=UAH/UAH quote=„“ firstWeekday=2
+uk_UA names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+uk_UA date 4/3 Freitag, 15. Januar 2027 um 08:00:00 GMT
+uk_UA date 2/1 15.01.2027, 08:00
+uk_UA date 1/0 15.01.27
+uk_UA template d. MMMM y 'um' HH:mm 15. Januar 2027 um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+uk_UA num 1 1.234.567,891
+uk_UA num 2 1.234.567,89 UAH
+uk_UA num 3 123.456.789 %
+uk_UA num 4 1,234567891E6
+uk_UA num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+uk_UA num 6 1.234.568.
+uk_UA sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+uk_UA sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+uk_UA case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+yue props dec=, grp=. cur=nil/¤ quote=„“ firstWeekday=1
+yue names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+yue date 4/3 Freitag, 15. Januar 2027 um 8:00:00 AM GMT
+yue date 2/1 15.01.2027, 8:00 AM
+yue date 1/0 15.01.27
+yue template d. MMMM y 'um' h:mm a 15. Januar 2027 um 8:00 AM months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+yue num 1 1.234.567,891
+yue num 2 1.234.567,89 ¤
+yue num 3 123.456.789 %
+yue num 4 1,234567891E6
+yue num 5 一百二十三萬四千五百六十七點八九一
+yue num 6 第1.234.568
+yue sort ["中国", "日本", "ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국"]
+yue sortCI ["中国", "日本", "ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국"]
+yue case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel
+xx_YY props dec=, grp=. cur=nil/¤ quote=„“ firstWeekday=2
+xx_YY names lang(de)=German region(JP)=Japan cur(EUR)=Euro id(fr_CA)=French (Canada)
+xx_YY date 4/3 Freitag, 15. Januar 2027 um 08:00:00 GMT
+xx_YY date 2/1 15.01.2027, 08:00
+xx_YY date 1/0 15.01.27
+xx_YY template d. MMMM y 'um' HH:mm 15. Januar 2027 um 08:00 months=["Januar", "Februar"] weekdays=["So.", "Mo."]
+xx_YY num 1 1.234.567,891
+xx_YY num 2 1.234.567,89 ¤
+xx_YY num 3 123.456.789 %
+xx_YY num 4 1,234567891E6
+xx_YY num 5 eine Million zwei­hundert­vier­und­dreißig­tausend­fünf­hundert­sieben­und­sechzig Komma acht neun eins
+xx_YY num 6 1.234.568.
+xx_YY sort ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "zebra", "Zebra", "ไทย", "한국", "中国", "日本"]
+xx_YY sortCI ["ähnlich", "Ångström", "Äpfel", "apple", "čaj", "ch", "cz", "file10", "file2", "Iİ", "ıi", "Zebra", "zebra", "ไทย", "한국", "中国", "日本"]
+xx_YY case up=ISTANBUL ILIK STRASSE low=i̇stanbul işik cap=Istanbul Ijssel

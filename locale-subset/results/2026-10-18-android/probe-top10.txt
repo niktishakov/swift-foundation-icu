@@ -1,0 +1,60 @@
+start
+env LANG=<unset> LC_ALL=<unset> LC_MESSAGES=<unset> LANGUAGE=<unset>
+icu uloc_getDefault=en_US_POSIX
+current Locale.current=en_001 preferredLanguages=["en-001"]
+count availableIdentifiers=316
+date en_US Friday, January 15, 2027 at 8:00 AM
+number en_US 1,234,567.891
+currency en_US €99.50 | $1,234.50
+list en_US A, B, and C
+relative en_US 3 days ago
+names en_US French (France) | dir=ltr
+date de_DE Freitag, 15. Januar 2027 um 8:00
+number de_DE 1.234.567,891
+currency de_DE 99,50 € | 1.234,50 €
+list de_DE A, B und C
+relative de_DE vor 3 Tagen
+names de_DE Französisch (Frankreich) | dir=ltr
+date ja_JP 2027年1月15日 金曜日 8:00
+number ja_JP 1,234,567.891
+currency ja_JP €99.50 | ¥1,234
+list ja_JP A、B、C
+relative ja_JP 3 日前
+names ja_JP フランス語（フランス） | dir=ltr
+date ar_EG الجمعة، ١٥ يناير، ٢٠٢٧، ٨:٠٠ ص
+number ar_EG ١٬٢٣٤٬٥٦٧٫٨٩١
+currency ar_EG ‏٩٩٫٥٠ € | ‏١٬٢٣٤٫٥٠ ج.م.‏
+list ar_EG ⁨A⁩ و⁨B⁩ و⁨C⁩
+relative ar_EG قبل ٣ أيام
+names ar_EG الفرنسية (فرنسا) | dir=rtl
+date zh_Hans_CN 2027年1月15日 星期五 8:00
+number zh_Hans_CN 1,234,567.891
+currency zh_Hans_CN €99.50 | ¥1,234.50
+list zh_Hans_CN A、B和C
+relative zh_Hans_CN 3天前
+names zh_Hans_CN 法语（法国） | dir=ltr
+date ko_KR Friday, January 15, 2027 at 8:00 AM
+number ko_KR 1234567.891
+currency ko_KR € 99.50 | ₩ 1234
+list ko_KR A, B, and C
+relative ko_KR 3 days ago
+names ko_KR French (France) | dir=ltr
+date tr_TR Friday, January 15, 2027 at 08:00
+number tr_TR 1234567.891
+currency tr_TR € 99.50 | TRY 1234.50
+list tr_TR A, B, and C
+relative tr_TR 3 days ago
+names tr_TR French (France) | dir=ltr
+date he_IL Friday, January 15, 2027 at 08:00
+number he_IL 1234567.891
+currency he_IL € 99.50 | ₪ 1234.50
+list he_IL A, B, and C
+relative he_IL 3 days ago
+names he_IL French (France) | dir=ltr
+date xx_YY Friday, January 15, 2027 at 08:00
+number xx_YY 1234567.891
+currency xx_YY € 99.50 | $ 1234.50
+list xx_YY A, B, and C
+relative xx_YY 3 days ago
+names xx_YY French (France) | dir=ltr
+done

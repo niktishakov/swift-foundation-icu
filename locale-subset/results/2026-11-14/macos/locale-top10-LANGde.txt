@@ -1,0 +1,291 @@
+global availableIdentifiers=316 ko=false ko_KR=false en_US=true en_GB=true zh_Hant_HK=true yue=false
+global availableCollations=11 commonISOCurrencyCodes=159 knownTimeZones=443 isoLanguages=615 isoRegions=292
+global current=en_001 Friday, 15 January 2027
+en_US date Friday, January 15, 2027 at 8:00:00 AM GMT | 1/15/2027, 8:00 AM | Fri (month: January)
+en_US num 1,234,567.891 | 42% | €99.50 | $1,234.50 | 12K | 1E-7
+en_US props currency=USD dec=. grp=, numsys=latn measure=ussystem firstDay=sunday hourCycle=oneToTwelve cal=gregorian quote=“
+en_US list a, b, and c | a or b
+en_US rel 3 days ago | in 2 hr.
+en_US dur 1 hour, 2 minutes, 5 seconds | 1:02:05 | 1.2 MB
+en_US names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=Eastern Time/EST
+en_US cal months=["January", "February"] wd=["Sun", "Mon"] firstWeekday=1 minDays=1 am=AM
+en_US case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+en_GB date Friday, 15 January 2027 at 8:00:00 GMT | 15/01/2027, 8:00 | Fri (month: January)
+en_GB num 1,234,567.891 | 42% | €99.50 | £1,234.50 | 12K | 1E-7
+en_GB props currency=GBP dec=. grp=, numsys=latn measure=uksystem firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+en_GB list a, b and c | a or b
+en_GB rel 3 days ago | in 2 hr
+en_GB dur 1 hour, 2 minutes, 5 seconds | 1:02:05 | 1.2 MB
+en_GB names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=Eastern Time/GMT-5
+en_GB cal months=["January", "February"] wd=["Sun", "Mon"] firstWeekday=2 minDays=4 am=am
+en_GB case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+en_IN date Friday, 15 January 2027 at 8:00:00 AM GMT | 15/1/2027, 8:00 AM | Fri (month: January)
+en_IN num 12,34,567.891 | 42% | €99.50 | ₹1,234.50 | 12K | 1E-7
+en_IN props currency=INR dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=oneToTwelve cal=gregorian quote=“
+en_IN list a, b, and c | a or b
+en_IN rel 3 days ago | in 2 hr
+en_IN dur 1 hour, 2 minutes, 5 seconds | 1:02:05 | 1.2 MB
+en_IN names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=Eastern Time/GMT-5
+en_IN cal months=["January", "February"] wd=["Sun", "Mon"] firstWeekday=1 minDays=1 am=AM
+en_IN case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+en_US_POSIX date Friday, January 15, 2027 at 8:00:00 AM GMT | 1/15/2027, 8:00 AM | Fri (month: January)
+en_US_POSIX num 1234567.891 | 42% | € 99.50 | $ 1234.50 | 12K | 1E-7
+en_US_POSIX props currency=USD dec=. grp=, numsys=latn measure=ussystem firstDay=sunday hourCycle=oneToTwelve cal=gregorian quote=“
+en_US_POSIX list a, b, and c | a or b
+en_US_POSIX rel 3 days ago | in 2 hr.
+en_US_POSIX dur 1 hour, 2 minutes, 5 seconds | 1:02:05 | 1.2 MB
+en_US_POSIX names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=Eastern Time/EST
+en_US_POSIX cal months=["January", "February"] wd=["Sun", "Mon"] firstWeekday=1 minDays=1 am=AM
+en_US_POSIX case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+es_ES date viernes, 15 de enero de 2027, 8:00:00 GMT | 15/1/2027, 8:00 | vie (mes: enero)
+es_ES num 1.234.567,891 | 42 % | 99,50 € | 1234,50 € | 12 mil | 1E-7
+es_ES props currency=EUR dec=, grp=. numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+es_ES list a, b y c | a o b
+es_ES rel hace 3 días | dentro de 2 h
+es_ES dur 1 hora, 2 minutos y 5 segundos | 1:02:05 | 1,2 MB
+es_ES names lang(de)=alemán region(JP)=Japón cur(EUR)=euro script(Cyrl)=cirílico id(fr_CA)=francés (Canadá) tz=hora oriental/GMT-5
+es_ES cal months=["enero", "febrero"] wd=["dom", "lun"] firstWeekday=2 minDays=4 am=a. m.
+es_ES case ISTANBUL II | Hello World ǅ | collations=["standard", "search", "traditional", "emoji", "eor"]
+es_MX date viernes, 15 de enero de 2027, 8:00:00 a.m. GMT | 15/1/2027, 8:00 a.m. | vie (mes: enero)
+es_MX num 1,234,567.891 | 42% | EUR 99.50 | $1,234.50 | 12 k | 1E-7
+es_MX props currency=MXN dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=oneToTwelve cal=gregorian quote=“
+es_MX list a, b y c | a o b
+es_MX rel hace 3 días | en 2 n
+es_MX dur 1 hora, 2 minutos y 5 segundos | 1:02:05 | 1.2 MB
+es_MX names lang(de)=alemán region(JP)=Japón cur(EUR)=euro script(Cyrl)=cirílico id(fr_CA)=francés (Canadá) tz=hora oriental/GMT-5
+es_MX cal months=["enero", "febrero"] wd=["dom", "lun"] firstWeekday=1 minDays=1 am=a.m.
+es_MX case ISTANBUL II | Hello World ǅ | collations=["standard", "search", "traditional", "emoji", "eor"]
+es_419 date viernes, 15 de enero de 2027, 8:00:00 a.m. GMT | 15/1/2027, 8:00 a.m. | vie (mes: enero)
+es_419 num 1,234,567.891 | 42% | EUR 99.50 | USD 1,234.50 | 12 k | 1E-7
+es_419 props currency=nil dec=. grp=, numsys=latn measure=metric firstDay=monday hourCycle=oneToTwelve cal=gregorian quote=“
+es_419 list a, b y c | a o b
+es_419 rel hace 3 días | dentro de 2 h
+es_419 dur 1 hora, 2 minutos y 5 segundos | 1:02:05 | 1.2 MB
+es_419 names lang(de)=alemán region(JP)=Japón cur(EUR)=euro script(Cyrl)=cirílico id(fr_CA)=francés (Canadá) tz=hora oriental/GMT-5
+es_419 cal months=["enero", "febrero"] wd=["dom", "lun"] firstWeekday=2 minDays=1 am=a.m.
+es_419 case ISTANBUL II | Hello World ǅ | collations=["standard", "search", "traditional", "emoji", "eor"]
+fr_FR date vendredi 15 janvier 2027 à 8:00:00 UTC | 15/01/2027 8:00 | ven. (mois: janvier)
+fr_FR num 1 234 567,891 | 42 % | 99,50 € | 1 234,50 € | 12 k | 1E-7
+fr_FR props currency=EUR dec=, grp=  numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=«
+fr_FR list a, b et c | a ou b
+fr_FR rel il y a 3 jours | dans 2 h
+fr_FR dur 1 heure, 2 minutes et 5 secondes | 1:02:05 | 1,2 Mo
+fr_FR names lang(de)=allemand region(JP)=Japon cur(EUR)=euro script(Cyrl)=cyrillique id(fr_CA)=français (Canada) tz=heure de l’Est nord-américain/UTC−5
+fr_FR cal months=["janvier", "février"] wd=["dim.", "lun."] firstWeekday=2 minDays=4 am=AM
+fr_FR case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+fr_CA date vendredi 15 janvier 2027 à 8:00:00 UTC | 2027-01-15 8:00 | ven. (mois: janvier)
+fr_CA num 1 234 567,891 | 42 % | 99,50 € | 1 234,50 $ | 12 k | 1E-7
+fr_CA props currency=CAD dec=, grp=  numsys=latn measure=metric firstDay=sunday hourCycle=zeroToTwentyThree cal=gregorian quote=«
+fr_CA list a, b et c | a ou b
+fr_CA rel il y a 3 jours | dans 2 h
+fr_CA dur 1 heure, 2 minutes et 5 secondes | 1:02:05 | 1,2 Mo
+fr_CA names lang(de)=allemand region(JP)=Japon cur(EUR)=euro script(Cyrl)=cyrillique id(fr_CA)=français (Canada) tz=heure de l’Est/HNE
+fr_CA cal months=["janvier", "février"] wd=["dim.", "lun."] firstWeekday=1 minDays=1 am=a.m.
+fr_CA case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+de_DE date Freitag, 15. Januar 2027 um 8:00:00 GMT | 15.1.2027, 8:00 | Fr (Monat: Januar)
+de_DE num 1.234.567,891 | 42 % | 99,50 € | 1.234,50 € | 12.345 | 1E-7
+de_DE props currency=EUR dec=, grp=. numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=„
+de_DE list a, b und c | a oder b
+de_DE rel vor 3 Tagen | in 2 Std.
+de_DE dur 1 Stunde, 2 Minuten und 5 Sekunden | 1:02:05 | 1,2 MB
+de_DE names lang(de)=Deutsch region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Kyrillisch id(fr_CA)=Französisch (Kanada) tz=Nordamerikanische Ostküstenzeit/GMT-5
+de_DE cal months=["Januar", "Februar"] wd=["So.", "Mo."] firstWeekday=2 minDays=4 am=AM
+de_DE case ISTANBUL II | Hello World ǅ | collations=["standard", "phonebook", "search", "emoji", "eor"]
+de_CH date Freitag, 15. Januar 2027 um 8:00:00 GMT | 15.1.2027, 8:00 | Fr (Monat: Januar)
+de_CH num 1’234’567.891 | 42% | EUR 99.50 | CHF 1’234.50 | 12’345 | 1E-7
+de_CH props currency=CHF dec=. grp=’ numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=„
+de_CH list a, b und c | a oder b
+de_CH rel vor 3 Tagen | in 2 Std.
+de_CH dur 1 Stunde, 2 Minuten und 5 Sekunden | 1:02:05 | 1.2 MB
+de_CH names lang(de)=Deutsch region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Kyrillisch id(fr_CA)=Französisch (Kanada) tz=Nordamerikanische Ostküstenzeit/GMT-5
+de_CH cal months=["Januar", "Februar"] wd=["So.", "Mo."] firstWeekday=2 minDays=4 am=AM
+de_CH case ISTANBUL II | Hello World ǅ | collations=["standard", "phonebook", "search", "emoji", "eor"]
+it_IT date venerdì 15 gennaio 2027 alle ore 8:00:00 GMT | 15/01/2027, 8:00 | ven (mese: gennaio)
+it_IT num 1.234.567,891 | 42% | 99,50 € | 1234,50 € | 12.345 | 1E-7
+it_IT props currency=EUR dec=, grp=. numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=«
+it_IT list a, b e c | a o b
+it_IT rel 3 giorni fa | tra 2 h
+it_IT dur 1 ora, 2 minuti e 5 secondi | 1:02:05 | 1,2 MB
+it_IT names lang(de)=tedesco region(JP)=Giappone cur(EUR)=euro script(Cyrl)=cirillico id(fr_CA)=francese (Canada) tz=Ora orientale USA/GMT-5
+it_IT cal months=["gennaio", "febbraio"] wd=["dom", "lun"] firstWeekday=2 minDays=4 am=AM
+it_IT case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+pt_BR date sexta-feira, 15 de janeiro de 2027 às 8:00:00 GMT | 15/01/2027, 8:00 | sex. (mês: janeiro)
+pt_BR num 1.234.567,891 | 42% | € 99,50 | R$ 1.234,50 | 12 mil | 1E-7
+pt_BR props currency=BRL dec=, grp=. numsys=latn measure=metric firstDay=sunday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+pt_BR list a, b e c | a ou b
+pt_BR rel há 3 dias | em 2 h
+pt_BR dur 1 hora, 2 minutos e 5 segundos | 1:02:05 | 1,2 MB
+pt_BR names lang(de)=alemão region(JP)=Japão cur(EUR)=Euro script(Cyrl)=cirílico id(fr_CA)=francês (Canadá) tz=Horário do Leste/GMT-5
+pt_BR cal months=["janeiro", "fevereiro"] wd=["dom.", "seg."] firstWeekday=1 minDays=1 am=AM
+pt_BR case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+pt_PT date sexta-feira, 15 de janeiro de 2027 às 8:00:00 GMT | 15/01/2027, 8:00 | sex. (mês: janeiro)
+pt_PT num 1 234 567,891 | 42% | 99,50 € | 1234,50 € | 12 mil | 1E-7
+pt_PT props currency=EUR dec=, grp=  numsys=latn measure=metric firstDay=sunday hourCycle=zeroToTwentyThree cal=gregorian quote=«
+pt_PT list a, b e c | a ou b
+pt_PT rel há 3 dias | dentro de 2 h
+pt_PT dur 1 hora, 2 minutos e 5 segundos | 1:02:05 | 1,2 MB
+pt_PT names lang(de)=alemão region(JP)=Japão cur(EUR)=euro script(Cyrl)=cirílico id(fr_CA)=francês (Canadá) tz=Hora oriental norte-americana/GMT-5
+pt_PT cal months=["janeiro", "fevereiro"] wd=["dom.", "seg."] firstWeekday=1 minDays=4 am=AM
+pt_PT case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+ru_RU date пятница, 15 января 2027 г. в 8:00:00 GMT | 15.01.2027, 8:00 | Пт (месяц: январь)
+ru_RU num 1 234 567,891 | 42 % | 99,50 € | 1 234,50 ₽ | 12 тыс. | 1E-7
+ru_RU props currency=RUB dec=, grp=  numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=«
+ru_RU list a, b и c | a или b
+ru_RU rel 3 дня назад | через 2 ч
+ru_RU dur 1 час, 2 минуты, 5 секунд | 1:02:05 | 1,2 МБ
+ru_RU names lang(de)=немецкий region(JP)=Япония cur(EUR)=евро script(Cyrl)=кириллица id(fr_CA)=французский (Канада) tz=Восточная Америка/GMT-5
+ru_RU cal months=["января", "февраля"] wd=["Вс", "Пн"] firstWeekday=2 minDays=4 am=AM
+ru_RU case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+ja_JP date 2027年1月15日 金曜日 8:00:00 GMT | 2027/1/15 8:00 | 金 (月: 1月)
+ja_JP num 1,234,567.891 | 42% | €99.50 | ¥1,234 | 1.2万 | 1E-7
+ja_JP props currency=JPY dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=zeroToTwentyThree cal=gregorian quote=「
+ja_JP list a、b、c | aまたはb
+ja_JP rel 3 日前 | 2 時間後
+ja_JP dur 1時間 2分 5秒 | 1:02:05 | 1.2 MB
+ja_JP names lang(de)=ドイツ語 region(JP)=日本 cur(EUR)=ユーロ script(Cyrl)=キリル文字 id(fr_CA)=フランス語（カナダ） tz=アメリカ東部時間/GMT-5
+ja_JP cal months=["1月", "2月"] wd=["日", "月"] firstWeekday=1 minDays=1 am=午前
+ja_JP case ISTANBUL II | Hello World ǅ | collations=["standard", "unihan", "emoji", "eor", "search"]
+zh_Hans_CN date 2027年1月15日 星期五 GMT 8:00:00 | 2027/1/15 8:00 | 周五 (月: 一月)
+zh_Hans_CN num 1,234,567.891 | 42% | €99.50 | ¥1,234.50 | 1.2万 | 1E-7
+zh_Hans_CN props currency=CNY dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+zh_Hans_CN list a、b和c | a或b
+zh_Hans_CN rel 3天前 | 2小时后
+zh_Hans_CN dur 1小时2分钟5秒钟 | 1:02:05 | 1.2 MB
+zh_Hans_CN names lang(de)=德语 region(JP)=日本 cur(EUR)=欧元 script(Cyrl)=西里尔文 id(fr_CA)=法语（加拿大） tz=北美东部时间/GMT-5
+zh_Hans_CN cal months=["一月", "二月"] wd=["周日", "周一"] firstWeekday=1 minDays=5 am=上午
+zh_Hans_CN case ISTANBUL II | Hello World ǅ | collations=["pinyin", "stroke", "unihan", "zhuyin", "emoji", "eor", "search", "standard"]
+zh_Hant_TW date 2027年1月15日 星期五 GMT 上午8:00:00 | 2027/1/15 上午8:00 | 週五 (月: 1月)
+zh_Hant_TW num 1,234,567.891 | 42% | €99.50 | $1,234.50 | 1.2萬 | 1E-7
+zh_Hant_TW props currency=TWD dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=oneToTwelve cal=gregorian quote=「
+zh_Hant_TW list a、b和c | a或b
+zh_Hant_TW rel 3天前 | 2小時後
+zh_Hant_TW dur 1小時2分鐘5秒 | 1:02:05 | 1.2 MB
+zh_Hant_TW names lang(de)=德文 region(JP)=日本 cur(EUR)=歐元 script(Cyrl)=西里爾文字 id(fr_CA)=法文（加拿大） tz=東部時間/EST
+zh_Hant_TW cal months=["1月", "2月"] wd=["週日", "週一"] firstWeekday=1 minDays=1 am=上午
+zh_Hant_TW case ISTANBUL II | Hello World ǅ | collations=["stroke", "pinyin", "unihan", "zhuyin", "emoji", "eor", "search", "standard"]
+zh_Hant_HK date 2027年1月15日 星期五 GMT 上午8:00:00 | 15/1/2027 上午8:00 | 週五 (月: 1月)
+zh_Hant_HK num 1,234,567.891 | 42% | €99.50 | HK$1,234.50 | 12K | 1E-7
+zh_Hant_HK props currency=HKD dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=oneToTwelve cal=gregorian quote=「
+zh_Hant_HK list a、b及c | a或b
+zh_Hant_HK rel 3日前 | 2小時後
+zh_Hant_HK dur 1小時2分鐘5秒 | 1:02:05 | 1.2 MB
+zh_Hant_HK names lang(de)=德文 region(JP)=日本 cur(EUR)=歐元 script(Cyrl)=西里爾文字 id(fr_CA)=法文（加拿大） tz=北美東部時間/EST
+zh_Hant_HK cal months=["1月", "2月"] wd=["週日", "週一"] firstWeekday=1 minDays=1 am=上午
+zh_Hant_HK case ISTANBUL II | Hello World ǅ | collations=["stroke", "pinyin", "unihan", "zhuyin", "emoji", "eor", "search", "standard"]
+ar_EG date الجمعة، ١٥ يناير، ٢٠٢٧، ٨:٠٠:٠٠ ص غرينتش | ١٥‏/١‏/٢٠٢٧، ٨:٠٠ ص | جمعة (الشهر: يناير)
+ar_EG num ١٬٢٣٤٬٥٦٧٫٨٩١ | ٤٢٪؜ | ‏٩٩٫٥٠ € | ‏١٬٢٣٤٫٥٠ ج.م.‏ | ١٢ ألف | ١أس؜-٧
+ar_EG props currency=EGP dec=٫ grp=٬ numsys=arab measure=metric firstDay=saturday hourCycle=oneToTwelve cal=gregorian quote="
+ar_EG list ⁨a⁩ و⁨b⁩ و⁨c⁩ | ⁨a⁩ أو ⁨b⁩
+ar_EG rel قبل ٣ أيام | خلال ساعتين
+ar_EG dur ساعة، دقيقتان، و٥ ثوان | ١:٠٢:٠٥ | ١٫٢ م.ب
+ar_EG names lang(de)=الألمانية region(JP)=اليابان cur(EUR)=يورو script(Cyrl)=السيريلية id(fr_CA)=الفرنسية (كندا) tz=التوقيت الشرقي لأمريكا الشمالية/غرينتش-٥
+ar_EG cal months=["يناير", "فبراير"] wd=["أحد", "اثنين"] firstWeekday=7 minDays=1 am=ص
+ar_EG case ISTANBUL II | Hello World ǅ | collations=["standard", "compat", "emoji", "eor", "search"]
+ar_SA date الجمعة، ١٥ يناير، ٢٠٢٧، ٨:٠٠:٠٠ ص غرينتش | ١٥‏/١‏/٢٠٢٧، ٨:٠٠ ص | جمعة (الشهر: يناير)
+ar_SA num ١٬٢٣٤٬٥٦٧٫٨٩١ | ٤٢٪؜ | ‏٩٩٫٥٠ € | ‏١٬٢٣٤٫٥٠ ر.س.‏ | ١٢ ألف | ١أس؜-٧
+ar_SA props currency=SAR dec=٫ grp=٬ numsys=arab measure=metric firstDay=sunday hourCycle=oneToTwelve cal=islamic-umalqura quote="
+ar_SA list ⁨a⁩ و⁨b⁩ و⁨c⁩ | ⁨a⁩ أو ⁨b⁩
+ar_SA rel قبل ٣ أيام | خلال ساعتين
+ar_SA dur ساعة، دقيقتان، و٥ ثوانٍ | ١:٠٢:٠٥ | ١٫٢ م.ب
+ar_SA names lang(de)=الألمانية region(JP)=اليابان cur(EUR)=يورو script(Cyrl)=السيريلية id(fr_CA)=الفرنسية (كندا) tz=التوقيت الشرقي لأمريكا الشمالية/غرينتش-٥
+ar_SA cal months=["يناير", "فبراير"] wd=["أحد", "اثنين"] firstWeekday=1 minDays=1 am=ص
+ar_SA case ISTANBUL II | Hello World ǅ | collations=["standard", "compat", "emoji", "eor", "search"]
+ko_KR date 2027 M01 15, Fri 8:00:00 AM GMT | 2027-01-15 8:00 AM | Fri (Month: M01)
+ko_KR num 1,234,567.891 | 42% | € 99.50 | ₩ 1,234 | 12K | 1E-7
+ko_KR props currency=KRW dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=oneToTwelve cal=gregorian quote=“
+ko_KR list a, b 및 c | a 또는 b
+ko_KR rel -3 d | +2 h
+ko_KR dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+ko_KR names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+ko_KR cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=1 minDays=1 am=AM
+ko_KR case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+tr_TR date 2027 M01 15, Fri 8:00:00 GMT | 2027-01-15 8:00 | Fri (Month: M01)
+tr_TR num 1,234,567.891 | 42% | € 99.50 | TRY 1,234.50 | 12K | 1E-7
+tr_TR props currency=TRY dec=. grp=, numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+tr_TR list a, b ve c | a veya b
+tr_TR rel -3 d | +2 h
+tr_TR dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+tr_TR names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+tr_TR cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=2 minDays=1 am=AM
+tr_TR case İSTANBUL İI | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+he_IL date 2027 M01 15, Fri 8:00:00 GMT | 2027-01-15 8:00 | Fri (Month: M01)
+he_IL num 1,234,567.891 | 42% | € 99.50 | ₪ 1,234.50 | 12K | 1E-7
+he_IL props currency=ILS dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+he_IL list a, b ו-c | a או b
+he_IL rel -3 d | +2 h
+he_IL dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+he_IL names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+he_IL cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=1 minDays=1 am=AM
+he_IL case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+nl_NL date 2027 M01 15, Fri 8:00:00 GMT | 2027-01-15 8:00 | Fri (Month: M01)
+nl_NL num 1,234,567.891 | 42% | € 99.50 | € 1,234.50 | 12K | 1E-7
+nl_NL props currency=EUR dec=. grp=, numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+nl_NL list a, b en c | a of b
+nl_NL rel -3 d | +2 h
+nl_NL dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+nl_NL names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+nl_NL cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=2 minDays=4 am=AM
+nl_NL case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+pl_PL date 2027 M01 15, Fri 8:00:00 GMT | 2027-01-15 8:00 | Fri (Month: M01)
+pl_PL num 1,234,567.891 | 42% | € 99.50 | PLN 1,234.50 | 12K | 1E-7
+pl_PL props currency=PLN dec=. grp=, numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+pl_PL list a, b i c | a lub b
+pl_PL rel -3 d | +2 h
+pl_PL dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+pl_PL names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+pl_PL cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=2 minDays=4 am=AM
+pl_PL case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+sv_SE date 2027 M01 15, Fri 8:00:00 GMT | 2027-01-15 8:00 | Fri (Month: M01)
+sv_SE num 1,234,567.891 | 42% | € 99.50 | SEK 1,234.50 | 12K | 1E-7
+sv_SE props currency=SEK dec=. grp=, numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+sv_SE list a, b och c | a eller b
+sv_SE rel -3 d | +2 h
+sv_SE dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+sv_SE names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+sv_SE cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=2 minDays=4 am=AM
+sv_SE case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+hi_IN date 2027 M01 15, Fri 8:00:00 AM GMT | 2027-01-15 8:00 AM | Fri (Month: M01)
+hi_IN num 1,234,567.891 | 42% | € 99.50 | ₹ 1,234.50 | 12K | 1E-7
+hi_IN props currency=INR dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=oneToTwelve cal=gregorian quote=“
+hi_IN list a, b और c | a या b
+hi_IN rel -3 d | +2 h
+hi_IN dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+hi_IN names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+hi_IN cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=1 minDays=1 am=AM
+hi_IN case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+th_TH date 2027 M01 15, Fri 8:00:00 GMT | 2027-01-15 8:00 | Fri (Month: M01)
+th_TH num 1,234,567.891 | 42% | € 99.50 | THB 1,234.50 | 12K | 1E-7
+th_TH props currency=THB dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=zeroToTwentyThree cal=buddhist quote=“
+th_TH list a b และ c | a หรือ b
+th_TH rel -3 d | +2 h
+th_TH dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+th_TH names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+th_TH cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=1 minDays=1 am=AM
+th_TH case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+uk_UA date 2027 M01 15, Fri 8:00:00 GMT | 2027-01-15 8:00 | Fri (Month: M01)
+uk_UA num 1,234,567.891 | 42% | € 99.50 | UAH 1,234.50 | 12K | 1E-7
+uk_UA props currency=UAH dec=. grp=, numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+uk_UA list a, b і c | a або b
+uk_UA rel -3 d | +2 h
+uk_UA dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+uk_UA names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+uk_UA cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=2 minDays=1 am=AM
+uk_UA case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]
+yue date 2027 M01 15, Fri 8:00:00 AM GMT | 2027-01-15 8:00 AM | Fri (Month: M01)
+yue num 1,234,567.891 | 42% | € 99.50 | US$ 1,234.50 | 12K | 1E-7
+yue props currency=nil dec=. grp=, numsys=latn measure=metric firstDay=sunday hourCycle=oneToTwelve cal=gregorian quote=“
+yue list a、b同c | a 或 b
+yue rel -3 d | +2 h
+yue dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+yue names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+yue cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=1 minDays=1 am=AM
+yue case ISTANBUL II | Hello World ǅ | collations=["stroke", "pinyin", "unihan", "zhuyin", "emoji", "eor", "search", "standard"]
+xx_YY date 2027 M01 15, Fri 8:00:00 GMT | 2027-01-15 8:00 | Fri (Month: M01)
+xx_YY num 1,234,567.891 | 42% | € 99.50 | US$ 1,234.50 | 12K | 1E-7
+xx_YY props currency=nil dec=. grp=, numsys=latn measure=metric firstDay=monday hourCycle=zeroToTwentyThree cal=gregorian quote=“
+xx_YY list a, b, c | a or b
+xx_YY rel -3 d | +2 h
+xx_YY dur 1 h, 2 min, 5 s | 1:02:05 | 1.2 MB
+xx_YY names lang(de)=German region(JP)=Japan cur(EUR)=Euro script(Cyrl)=Cyrillic id(fr_CA)=French (Canada) tz=New York/GMT-5
+xx_YY cal months=["M01", "M02"] wd=["Sun", "Mon"] firstWeekday=2 minDays=1 am=AM
+xx_YY case ISTANBUL II | Hello World ǅ | collations=["standard", "emoji", "eor", "search"]

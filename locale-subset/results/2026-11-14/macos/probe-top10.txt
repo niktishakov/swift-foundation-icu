@@ -1,0 +1,247 @@
+enc 3 Hello, world strict=12 lossy=[72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100] back=Hello, world
+enc 3 Grüße — café strict=-1 lossy=[71, 114, 143, 171, 228, 143, 169, 206, 101, 32, 63, 32, 99, 97, 102, 143, 171, 177] back=Grüße ? café
+enc 3 日本語のテキスト strict=16 lossy=[198, 252, 203, 220, 184, 236, 164, 206, 165, 198, 165, 173, 165, 185, 165, 200] back=日本語のテキスト
+enc 3 Привет, мир strict=20 lossy=[167, 177, 167, 226, 167, 218, 167, 211, 167, 214, 167, 228, 44, 32, 167, 222, 167, 218, 167, 226] back=Привет, мир
+enc 3 Γειά σου strict=16 lossy=[166, 163, 166, 197, 166, 201, 143, 166, 241, 32, 166, 210, 166, 207, 166, 212] back=Γειά σου
+enc 3 Çok güzel strict=13 lossy=[143, 170, 174, 111, 107, 32, 103, 143, 171, 228, 122, 101, 108] back=Çok güzel
+enc 3 Žluťoučký kůň strict=25 lossy=[143, 170, 246, 108, 117, 143, 171, 224, 111, 117, 143, 171, 173, 107, 143, 171, 242, 32, 107, 143, 171, 235, 143, 171, 206] back=Žluťoučký kůň
+enc 3 ©®™ “quotes” … strict=23 lossy=[143, 162, 237, 143, 162, 238, 143, 162, 239, 32, 161, 200, 113, 117, 111, 116, 101, 115, 161, 201, 32, 161, 196] back=©®™ “quotes” …
+enc 5 Hello, world strict=12 lossy=[72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100] back=Hello, world
+enc 5 Grüße — café strict=-1 lossy=[] back=nil
+enc 5 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 5 Привет, мир strict=-1 lossy=[] back=nil
+enc 5 Γειά σου strict=-1 lossy=[] back=nil
+enc 5 Çok güzel strict=9 lossy=[199, 111, 107, 32, 103, 252, 122, 101, 108] back=Çok güzel
+enc 5 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 5 ©®™ “quotes” … strict=-1 lossy=[] back=nil
+enc 8 Hello, world strict=-1 lossy=[] back=nil
+enc 8 Grüße — café strict=-1 lossy=[] back=nil
+enc 8 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 8 Привет, мир strict=-1 lossy=[] back=nil
+enc 8 Γειά σου strict=-1 lossy=[] back=nil
+enc 8 Çok güzel strict=-1 lossy=[] back=nil
+enc 8 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 8 ©®™ “quotes” … strict=-1 lossy=[] back=nil
+enc 9 Hello, world strict=-1 lossy=[] back=nil
+enc 9 Grüße — café strict=-1 lossy=[] back=nil
+enc 9 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 9 Привет, мир strict=-1 lossy=[] back=nil
+enc 9 Γειά σου strict=-1 lossy=[] back=nil
+enc 9 Çok güzel strict=-1 lossy=[] back=nil
+enc 9 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 9 ©®™ “quotes” … strict=-1 lossy=[] back=nil
+enc 15 Hello, world strict=-1 lossy=[] back=nil
+enc 15 Grüße — café strict=-1 lossy=[] back=nil
+enc 15 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 15 Привет, мир strict=-1 lossy=[] back=nil
+enc 15 Γειά σου strict=-1 lossy=[] back=nil
+enc 15 Çok güzel strict=-1 lossy=[] back=nil
+enc 15 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 15 ©®™ “quotes” … strict=-1 lossy=[] back=nil
+enc 11 Hello, world strict=-1 lossy=[] back=nil
+enc 11 Grüße — café strict=-1 lossy=[] back=nil
+enc 11 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 11 Привет, мир strict=-1 lossy=[] back=nil
+enc 11 Γειά σου strict=-1 lossy=[] back=nil
+enc 11 Çok güzel strict=-1 lossy=[] back=nil
+enc 11 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 11 ©®™ “quotes” … strict=-1 lossy=[] back=nil
+enc 12 Hello, world strict=-1 lossy=[] back=nil
+enc 12 Grüße — café strict=-1 lossy=[] back=nil
+enc 12 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 12 Привет, мир strict=-1 lossy=[] back=nil
+enc 12 Γειά σου strict=-1 lossy=[] back=nil
+enc 12 Çok güzel strict=-1 lossy=[] back=nil
+enc 12 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 12 ©®™ “quotes” … strict=-1 lossy=[] back=nil
+enc 13 Hello, world strict=-1 lossy=[] back=nil
+enc 13 Grüße — café strict=-1 lossy=[] back=nil
+enc 13 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 13 Привет, мир strict=-1 lossy=[] back=nil
+enc 13 Γειά σου strict=-1 lossy=[] back=nil
+enc 13 Çok güzel strict=-1 lossy=[] back=nil
+enc 13 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 13 ©®™ “quotes” … strict=-1 lossy=[] back=nil
+enc 14 Hello, world strict=-1 lossy=[] back=nil
+enc 14 Grüße — café strict=-1 lossy=[] back=nil
+enc 14 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 14 Привет, мир strict=-1 lossy=[] back=nil
+enc 14 Γειά σου strict=-1 lossy=[] back=nil
+enc 14 Çok güzel strict=-1 lossy=[] back=nil
+enc 14 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 14 ©®™ “quotes” … strict=-1 lossy=[] back=nil
+enc 21 Hello, world strict=-1 lossy=[] back=nil
+enc 21 Grüße — café strict=-1 lossy=[] back=nil
+enc 21 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 21 Привет, мир strict=-1 lossy=[] back=nil
+enc 21 Γειά σου strict=-1 lossy=[] back=nil
+enc 21 Çok güzel strict=-1 lossy=[] back=nil
+enc 21 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 21 ©®™ “quotes” … strict=-1 lossy=[] back=nil
+enc 30 Hello, world strict=12 lossy=[72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100] back=Hello, world
+enc 30 Grüße — café strict=12 lossy=[71, 114, 206, 178, 101, 32, 224, 32, 99, 97, 102, 188] back=Grüße — café
+enc 30 日本語のテキスト strict=-1 lossy=[] back=nil
+enc 30 Привет, мир strict=-1 lossy=[] back=nil
+enc 30 Γειά σου strict=-1 lossy=[] back=nil
+enc 30 Çok güzel strict=9 lossy=[158, 111, 107, 32, 103, 206, 122, 101, 108] back=Çok güzel
+enc 30 Žluťoučký kůň strict=-1 lossy=[] back=nil
+enc 30 ©®™ “quotes” … strict=14 lossy=[135, 139, 240, 32, 228, 113, 117, 111, 116, 101, 115, 229, 32, 234] back=©®™ “quotes” …
+case en_US hello world. new sentence | up=HELLO WORLD. NEW SENTENCE | low=hello world. new sentence | title=Hello World. New Sentence
+case en_US ǆemal ijssel | up=ǄEMAL IJSSEL | low=ǆemal ijssel | title=ǅemal Ijssel
+case en_US истанбул и ı i | up=ИСТАНБУЛ И I I | low=истанбул и ı i | title=Истанбул И I I
+case en_US this is 中文和english混合 text | up=THIS IS 中文和ENGLISH混合 TEXT | low=this is 中文和english混合 text | title=This Is 中文和English混合 Text
+case en_US ภาษาไทย test word | up=ภาษาไทย TEST WORD | low=ภาษาไทย test word | title=ภาษาไทย Test Word
+case en_US ខ្មែរ word test | up=ខ្មែរ WORD TEST | low=ខ្មែរ word test | title=ខ្មែរ Word Test
+case en_US ພາສາລາວ word | up=ພາສາລາວ WORD | low=ພາສາລາວ word | title=ພາສາລາວ Word
+case en_US မြန်မာ word | up=မြန်မာ WORD | low=မြန်မာ word | title=မြန်မာ Word
+case en_US 日本語 と english words | up=日本語 と ENGLISH WORDS | low=日本語 と english words | title=日本語 と English Words
+case en_US o'neil mcdonald-smith | up=O'NEIL MCDONALD-SMITH | low=o'neil mcdonald-smith | title=O'neil Mcdonald-Smith
+case tr_TR hello world. new sentence | up=HELLO WORLD. NEW SENTENCE | low=hello world. new sentence | title=Hello World. New Sentence
+case tr_TR ǆemal ijssel | up=ǄEMAL İJSSEL | low=ǆemal ijssel | title=ǅemal İjssel
+case tr_TR истанбул и ı i | up=ИСТАНБУЛ И I İ | low=истанбул и ı i | title=Истанбул И I İ
+case tr_TR this is 中文和english混合 text | up=THİS İS 中文和ENGLİSH混合 TEXT | low=this is 中文和english混合 text | title=This İs 中文和English混合 Text
+case tr_TR ภาษาไทย test word | up=ภาษาไทย TEST WORD | low=ภาษาไทย test word | title=ภาษาไทย Test Word
+case tr_TR ខ្មែរ word test | up=ខ្មែរ WORD TEST | low=ខ្មែរ word test | title=ខ្មែរ Word Test
+case tr_TR ພາສາລາວ word | up=ພາສາລາວ WORD | low=ພາສາລາວ word | title=ພາສາລາວ Word
+case tr_TR မြန်မာ word | up=မြန်မာ WORD | low=မြန်မာ word | title=မြန်မာ Word
+case tr_TR 日本語 と english words | up=日本語 と ENGLİSH WORDS | low=日本語 と english words | title=日本語 と English Words
+case tr_TR o'neil mcdonald-smith | up=O'NEİL MCDONALD-SMİTH | low=o'neil mcdonald-smith | title=O'neil Mcdonald-Smith
+case nl_NL hello world. new sentence | up=HELLO WORLD. NEW SENTENCE | low=hello world. new sentence | title=Hello World. New Sentence
+case nl_NL ǆemal ijssel | up=ǄEMAL IJSSEL | low=ǆemal ijssel | title=ǅemal IJssel
+case nl_NL истанбул и ı i | up=ИСТАНБУЛ И I I | low=истанбул и ı i | title=Истанбул И I I
+case nl_NL this is 中文和english混合 text | up=THIS IS 中文和ENGLISH混合 TEXT | low=this is 中文和english混合 text | title=This Is 中文和English混合 Text
+case nl_NL ภาษาไทย test word | up=ภาษาไทย TEST WORD | low=ภาษาไทย test word | title=ภาษาไทย Test Word
+case nl_NL ខ្មែរ word test | up=ខ្មែរ WORD TEST | low=ខ្មែរ word test | title=ខ្មែរ Word Test
+case nl_NL ພາສາລາວ word | up=ພາສາລາວ WORD | low=ພາສາລາວ word | title=ພາສາລາວ Word
+case nl_NL မြန်မာ word | up=မြန်မာ WORD | low=မြန်မာ word | title=မြန်မာ Word
+case nl_NL 日本語 と english words | up=日本語 と ENGLISH WORDS | low=日本語 と english words | title=日本語 と English Words
+case nl_NL o'neil mcdonald-smith | up=O'NEIL MCDONALD-SMITH | low=o'neil mcdonald-smith | title=O'neil Mcdonald-Smith
+case lt_LT hello world. new sentence | up=HELLO WORLD. NEW SENTENCE | low=hello world. new sentence | title=Hello World. New Sentence
+case lt_LT ǆemal ijssel | up=ǄEMAL IJSSEL | low=ǆemal ijssel | title=ǅemal Ijssel
+case lt_LT истанбул и ı i | up=ИСТАНБУЛ И I I | low=истанбул и ı i | title=Истанбул И I I
+case lt_LT this is 中文和english混合 text | up=THIS IS 中文和ENGLISH混合 TEXT | low=this is 中文和english混合 text | title=This Is 中文和English混合 Text
+case lt_LT ภาษาไทย test word | up=ภาษาไทย TEST WORD | low=ภาษาไทย test word | title=ภาษาไทย Test Word
+case lt_LT ខ្មែរ word test | up=ខ្មែរ WORD TEST | low=ខ្មែរ word test | title=ខ្មែរ Word Test
+case lt_LT ພາສາລາວ word | up=ພາສາລາວ WORD | low=ພາສາລາວ word | title=ພາສາລາວ Word
+case lt_LT မြန်မာ word | up=မြန်မာ WORD | low=မြန်မာ word | title=မြန်မာ Word
+case lt_LT 日本語 と english words | up=日本語 と ENGLISH WORDS | low=日本語 と english words | title=日本語 と English Words
+case lt_LT o'neil mcdonald-smith | up=O'NEIL MCDONALD-SMITH | low=o'neil mcdonald-smith | title=O'neil Mcdonald-Smith
+case el_GR hello world. new sentence | up=HELLO WORLD. NEW SENTENCE | low=hello world. new sentence | title=Hello World. New Sentence
+case el_GR ǆemal ijssel | up=ǄEMAL IJSSEL | low=ǆemal ijssel | title=ǅemal Ijssel
+case el_GR истанбул и ı i | up=ИСТАНБУЛ И I I | low=истанбул и ı i | title=Истанбул И I I
+case el_GR this is 中文和english混合 text | up=THIS IS 中文和ENGLISH混合 TEXT | low=this is 中文和english混合 text | title=This Is 中文和English混合 Text
+case el_GR ภาษาไทย test word | up=ภาษาไทย TEST WORD | low=ภาษาไทย test word | title=ภาษาไทย Test Word
+case el_GR ខ្មែរ word test | up=ខ្មែរ WORD TEST | low=ខ្មែរ word test | title=ខ្មែរ Word Test
+case el_GR ພາສາລາວ word | up=ພາສາລາວ WORD | low=ພາສາລາວ word | title=ພາສາລາວ Word
+case el_GR မြန်မာ word | up=မြန်မာ WORD | low=မြန်မာ word | title=မြန်မာ Word
+case el_GR 日本語 と english words | up=日本語 と ENGLISH WORDS | low=日本語 と english words | title=日本語 と English Words
+case el_GR o'neil mcdonald-smith | up=O'NEIL MCDONALD-SMITH | low=o'neil mcdonald-smith | title=O'neil Mcdonald-Smith
+case ja_JP hello world. new sentence | up=HELLO WORLD. NEW SENTENCE | low=hello world. new sentence | title=Hello World. New Sentence
+case ja_JP ǆemal ijssel | up=ǄEMAL IJSSEL | low=ǆemal ijssel | title=ǅemal Ijssel
+case ja_JP истанбул и ı i | up=ИСТАНБУЛ И I I | low=истанбул и ı i | title=Истанбул И I I
+case ja_JP this is 中文和english混合 text | up=THIS IS 中文和ENGLISH混合 TEXT | low=this is 中文和english混合 text | title=This Is 中文和English混合 Text
+case ja_JP ภาษาไทย test word | up=ภาษาไทย TEST WORD | low=ภาษาไทย test word | title=ภาษาไทย Test Word
+case ja_JP ខ្មែរ word test | up=ខ្មែរ WORD TEST | low=ខ្មែរ word test | title=ខ្មែរ Word Test
+case ja_JP ພາສາລາວ word | up=ພາສາລາວ WORD | low=ພາສາລາວ word | title=ພາສາລາວ Word
+case ja_JP မြန်မာ word | up=မြန်မာ WORD | low=မြန်မာ word | title=မြန်မာ Word
+case ja_JP 日本語 と english words | up=日本語 と ENGLISH WORDS | low=日本語 と english words | title=日本語 と English Words
+case ja_JP o'neil mcdonald-smith | up=O'NEIL MCDONALD-SMITH | low=o'neil mcdonald-smith | title=O'neil Mcdonald-Smith
+case zh_CN hello world. new sentence | up=HELLO WORLD. NEW SENTENCE | low=hello world. new sentence | title=Hello World. New Sentence
+case zh_CN ǆemal ijssel | up=ǄEMAL IJSSEL | low=ǆemal ijssel | title=ǅemal Ijssel
+case zh_CN истанбул и ı i | up=ИСТАНБУЛ И I I | low=истанбул и ı i | title=Истанбул И I I
+case zh_CN this is 中文和english混合 text | up=THIS IS 中文和ENGLISH混合 TEXT | low=this is 中文和english混合 text | title=This Is 中文和English混合 Text
+case zh_CN ภาษาไทย test word | up=ภาษาไทย TEST WORD | low=ภาษาไทย test word | title=ภาษาไทย Test Word
+case zh_CN ខ្មែរ word test | up=ខ្មែរ WORD TEST | low=ខ្មែរ word test | title=ខ្មែរ Word Test
+case zh_CN ພາສາລາວ word | up=ພາສາລາວ WORD | low=ພາສາລາວ word | title=ພາສາລາວ Word
+case zh_CN မြန်မာ word | up=မြန်မာ WORD | low=မြန်မာ word | title=မြန်မာ Word
+case zh_CN 日本語 と english words | up=日本語 と ENGLISH WORDS | low=日本語 と english words | title=日本語 と English Words
+case zh_CN o'neil mcdonald-smith | up=O'NEIL MCDONALD-SMITH | low=o'neil mcdonald-smith | title=O'neil Mcdonald-Smith
+case th_TH hello world. new sentence | up=HELLO WORLD. NEW SENTENCE | low=hello world. new sentence | title=Hello World. New Sentence
+case th_TH ǆemal ijssel | up=ǄEMAL IJSSEL | low=ǆemal ijssel | title=ǅemal Ijssel
+case th_TH истанбул и ı i | up=ИСТАНБУЛ И I I | low=истанбул и ı i | title=Истанбул И I I
+case th_TH this is 中文和english混合 text | up=THIS IS 中文和ENGLISH混合 TEXT | low=this is 中文和english混合 text | title=This Is 中文和English混合 Text
+case th_TH ภาษาไทย test word | up=ภาษาไทย TEST WORD | low=ภาษาไทย test word | title=ภาษาไทย Test Word
+case th_TH ខ្មែរ word test | up=ខ្មែរ WORD TEST | low=ខ្មែរ word test | title=ខ្មែរ Word Test
+case th_TH ພາສາລາວ word | up=ພາສາລາວ WORD | low=ພາສາລາວ word | title=ພາສາລາວ Word
+case th_TH မြန်မာ word | up=မြန်မာ WORD | low=မြန်မာ word | title=မြန်မာ Word
+case th_TH 日本語 と english words | up=日本語 と ENGLISH WORDS | low=日本語 と english words | title=日本語 と English Words
+case th_TH o'neil mcdonald-smith | up=O'NEIL MCDONALD-SMITH | low=o'neil mcdonald-smith | title=O'neil Mcdonald-Smith
+date en_US 1/15/2027, 3:00 PM | Friday, January 15, 2027
+num en_US 1,234,567.891 | 42% | €99.50
+rel en_US in 2 months
+list en_US a, b, and c
+name en_US French Brazil
+date de_DE 15.1.2027, 15:00 | Freitag, 15. Januar 2027
+num de_DE 1.234.567,891 | 42 % | 99,50 €
+rel de_DE in 2 Monaten
+list de_DE a, b und c
+name de_DE Französisch Brasilien
+date ja_JP 2027/1/15 15:00 | 2027年1月15日 金曜日
+num ja_JP 1,234,567.891 | 42% | €99.50
+rel ja_JP 2 か月後
+list ja_JP a、b、c
+name ja_JP フランス語 ブラジル
+date th_TH 1/15/2027, 15:00 | Friday, January 15, 2027
+num th_TH 1234567.891 | 42% | € 99.50
+rel th_TH in 2 months
+list th_TH a b และ c
+name th_TH French Brazil
+date ar_SA ١٥‏/١‏/٢٠٢٧، ٣:٠٠ م | الجمعة، ١٥ يناير، ٢٠٢٧
+num ar_SA ١٬٢٣٤٬٥٦٧٫٨٩١ | ٤٢٪؜ | ‏٩٩٫٥٠ €
+rel ar_SA خلال شهرين
+list ar_SA ⁨a⁩ و⁨b⁩ و⁨c⁩
+name ar_SA الفرنسية البرازيل
+date zh_Hant_TW 2027/1/15 下午3:00 | 2027年1月15日 星期五
+num zh_Hant_TW 1,234,567.891 | 42% | €99.50
+rel zh_Hant_TW 2個月後
+list zh_Hant_TW a、b和c
+name zh_Hant_TW 法文 巴西
+date km_KH 1/15/2027, 3:00 PM | Friday, January 15, 2027
+num km_KH 1234567.891 | 42% | € 99.50
+rel km_KH in 2 months
+list km_KH a, b និង c
+name km_KH French Brazil
+date my_MM 1/15/2027, 15:00 | Friday, January 15, 2027
+num my_MM 1234567.891 | 42% | € 99.50
+rel my_MM in 2 months
+list my_MM a - bနှင့် c
+name my_MM French Brazil
+duration en_US 1 hour, 2 minutes, 5 seconds | 1:02:05
+bytes en_US 1.2 MB
+capctx en_US Friday, January 15, 2027 | Friday, January 15, 2027
+rel en_US in 2 months
+relcap en_US In 2 months
+duration de_DE 1 Stunde, 2 Minuten und 5 Sekunden | 1:02:05
+bytes de_DE 1,2 MB
+capctx de_DE Freitag, 15. Januar 2027 | Freitag, 15. Januar 2027
+rel de_DE in 2 Monaten
+relcap de_DE In 2 Monaten
+duration fr_FR 1 heure, 2 minutes et 5 secondes | 1:02:05
+bytes fr_FR 1,2 Mo
+capctx fr_FR Vendredi 15 janvier 2027 | vendredi 15 janvier 2027
+rel fr_FR dans 2 mois
+relcap fr_FR Dans 2 mois
+duration es_ES 1 hora, 2 minutos y 5 segundos | 1:02:05
+bytes es_ES 1,2 MB
+capctx es_ES Viernes, 15 de enero de 2027 | Viernes, 15 de enero de 2027
+rel es_ES dentro de 2 meses
+relcap es_ES Dentro de 2 meses
+duration ru_RU 1 час, 2 минуты, 5 секунд | 1:02:05
+bytes ru_RU 1,2 МБ
+capctx ru_RU Пятница, 15 января 2027 г. | Пятница, 15 января 2027 г.
+rel ru_RU через 2 месяца
+relcap ru_RU Через 2 месяца
+duration ja_JP 1時間 2分 5秒 | 1:02:05
+bytes ja_JP 1.2 MB
+capctx ja_JP 2027年1月15日 金曜日 | 2027年1月15日 金曜日
+rel ja_JP 2 か月後
+relcap ja_JP 2 か月後
+duration ar_EG ساعة، دقيقتان، و٥ ثوان | ١:٠٢:٠٥
+bytes ar_EG ١٫٢ م.ب
+capctx ar_EG الجمعة، ١٥ يناير، ٢٠٢٧ | الجمعة، ١٥ يناير، ٢٠٢٧
+rel ar_EG خلال شهرين
+relcap ar_EG خلال شهرين
+idna bücher.example b%C3%BCcher.example
+idna 例え.テスト %E4%BE%8B%E3%81%88.%E3%83%86%E3%82%B9%E3%83%88
+idna xn--bcher-kva.example xn--bcher-kva.example
+idna ПРИМЕР.рф %D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80.%D1%80%D1%84
