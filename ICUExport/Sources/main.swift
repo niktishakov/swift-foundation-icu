@@ -41,7 +41,7 @@ struct ICUExport : AsyncParsableCommand {
     )
     var outputDirectory: FilePath
 
-    @Option(help: "Comma-separated locales to keep in the data file, like en,es. Each locale keeps its parent locales, and other locales fall back to their parents or root. Break dictionaries are kept only for the languages that use them. Keeps every locale when omitted.")
+    @Option(help: "Comma-separated locales to keep in the data file, like en,es. Each locale keeps its regional locales (en keeps en_GB) and its parent locales, and other locales fall back to their parents or root. Break dictionaries are kept only for the languages that use them. Keeps every locale when omitted.")
     var locales: String?
 
     private var skipList: Set<String> {
@@ -110,7 +110,7 @@ extension ICUExport {
         let filter: [String: Any] = [
             "localeFilter": [
                 "filterType": "locale",
-                "includeChildren": false,
+                "includeChildren": true,
                 "includelist": localeList,
             ],
             "featureFilters": [
