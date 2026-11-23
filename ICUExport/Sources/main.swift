@@ -41,6 +41,9 @@ struct ICUExport : AsyncParsableCommand {
     )
     var outputDirectory: FilePath
 
+    @Option(help: "Comma-separated locales to keep in the data file, like en,es. Each locale keeps its parent locales, and other locales fall back to their parents or root. Break dictionaries are kept only for the languages that use them. Keeps every locale when omitted.")
+    var locales: String?
+
     private var skipList: Set<String> {
         return Set([".git", ".DS_Store", "icuSources", "Package.resolved", ""])
     }
@@ -66,15 +69,26 @@ struct ICUExport : AsyncParsableCommand {
 extension ICUExport {
     private func buildICUDataFile() async throws {
         print("[STEP ⏳]: Build ICU Data File")
-        guard !FileManager.default.fileExists(atPath: icuDirectory.appending("build").string) else {
+        let buildDirectory = icuDirectory.appending("build")
+        guard !FileManager.default.fileExists(atPath: buildDirectory.string) else {
+            // An existing build may have been made with other locales.
+            guard locales == nil else {
+                throw Error.existingBuild(buildDirectory)
+            }
             print("[STEP ✅]: Found file")
             return
+        }
+        var environment = Environment.inherit
+        if let locales {
+            let filterFile = try writeDataFilter(locales: locales)
+            environment = environment.updating(["ICU_DATA_FILTER_FILE": filterFile.string])
         }
         // Only the host build makes the data file. Setting CPPFLAGS here would replace the
         // makefile's own flags, include paths among them, and the build would fail.
         let result = try await Subprocess.run(
             .name("make"),
             arguments: ["icuhost"],
+            environment: environment,
             workingDirectory: icuDirectory,
             output: .currentStandardOutput,
             error: .currentStandardError
@@ -84,6 +98,31 @@ extension ICUExport {
             throw Error.commandFailed("make")
         }
         print("[STEP ✅]: Build ICU Data File")
+    }
+
+    /// Writes an ICU data filter file (ICU's `ICU_DATA_FILTER_FILE`) that keeps only `locales`.
+    private func writeDataFilter(locales: String) throws -> FilePath {
+        let localeList = locales.split(separator: ",").map {
+            $0.trimmingCharacters(in: .whitespaces).replacingOccurrences(of: "-", with: "_")
+        }.filter { !$0.isEmpty } + alwaysIncludedLocales
+        let languages = Set(localeList.map { $0.split(separator: "_").first.map(String.init) ?? $0 })
+        let dictionaries = breakDictionaries.filter { !languages.isDisjoint(with: $0.value) }.keys.sorted()
+        let filter: [String: Any] = [
+            "localeFilter": [
+                "filterType": "locale",
+                "includeChildren": false,
+                "includelist": localeList,
+            ],
+            "featureFilters": [
+                "brkitr_dictionaries": dictionaries.isEmpty ? "exclude" : ["includelist": dictionaries],
+            ],
+        ]
+        let data = try JSONSerialization.data(withJSONObject: filter, options: [.prettyPrinted, .sortedKeys])
+        try FileManager.default.createDirectory(atPath: outputDirectory.string, withIntermediateDirectories: true)
+        let filterFile = outputDirectory.appending("icu-data-filter.json")
+        try data.write(to: URL(filePath: filterFile.string))
+        print("Using data filter \(filterFile): \(String(decoding: data, as: UTF8.self))")
+        return filterFile
     }
 
     private func copySourceFiles() async throws {
@@ -592,11 +631,24 @@ private let dataFileTemplate =
 
 private let timezoneFileNameTemplate = "icu_packaged_timezone_data.\(dataFileIndexMark).inc.h"
 
+/// Locales the data file always keeps: Foundation uses `en_US_POSIX` for fixed formats.
+private let alwaysIncludedLocales = ["en_US_POSIX"]
+
+/// The break dictionaries in ICU's `brkitr` data and the languages that use them.
+private let breakDictionaries: [String: Set<String>] = [
+    "burmesedict": ["my"],
+    "cjdict": ["ja", "zh"],
+    "khmerdict": ["km"],
+    "laodict": ["lo"],
+    "thaidict": ["th"],
+]
+
 // MARK: - Misc
 extension ICUExport {
     enum Error: Swift.Error {
         case commandFailed(String)
         case dataFileMissing
+        case existingBuild(FilePath)
         case fileManagerFailed(String)
         case malformedFileContent(FilePath, String)
     }
