@@ -41,8 +41,17 @@ struct ICUExport : AsyncParsableCommand {
     )
     var outputDirectory: FilePath
 
-    @Option(help: "Comma-separated locales to keep in the data file, like en,es. Each locale keeps its regional locales (en keeps en_GB) and its parent locales, and other locales fall back to their parents or root. Break dictionaries are kept only for the languages that use them. Keeps every locale when omitted.")
+    @Option(help: "Comma-separated locales to keep in the data file, like en,es. Each locale keeps its regional locales (en keeps en_GB) and its parent locales, and other locales fall back to their parents or root. Keeps every locale when omitted.")
     var locales: String?
+
+    @Flag(help: "With --locales, also removes the break dictionaries of the languages that aren't listed. Word breaking uses them for Chinese, Japanese, Thai, Lao, Khmer and Burmese text whatever the locale, so use this only when an app doesn't show such text.")
+    var dropBreakDictionaries = false
+
+    func validate() throws {
+        if dropBreakDictionaries && locales == nil {
+            throw ValidationError("--drop-break-dictionaries needs --locales.")
+        }
+    }
 
     private var skipList: Set<String> {
         return Set([".git", ".DS_Store", "icuSources", "Package.resolved", ""])
@@ -105,18 +114,20 @@ extension ICUExport {
         let localeList = locales.split(separator: ",").map {
             $0.trimmingCharacters(in: .whitespaces).replacingOccurrences(of: "-", with: "_")
         }.filter { !$0.isEmpty } + alwaysIncludedLocales
-        let languages = Set(localeList.map { $0.split(separator: "_").first.map(String.init) ?? $0 })
-        let dictionaries = breakDictionaries.filter { !languages.isDisjoint(with: $0.value) }.keys.sorted()
-        let filter: [String: Any] = [
+        var filter: [String: Any] = [
             "localeFilter": [
                 "filterType": "locale",
                 "includeChildren": true,
                 "includelist": localeList,
             ],
-            "featureFilters": [
-                "brkitr_dictionaries": dictionaries.isEmpty ? "exclude" : ["includelist": dictionaries],
-            ],
         ]
+        if dropBreakDictionaries {
+            let languages = Set(localeList.map { $0.split(separator: "_").first.map(String.init) ?? $0 })
+            let dictionaries = breakDictionaries.filter { !languages.isDisjoint(with: $0.value) }.keys.sorted()
+            filter["featureFilters"] = [
+                "brkitr_dictionaries": dictionaries.isEmpty ? "exclude" : ["includelist": dictionaries],
+            ]
+        }
         let data = try JSONSerialization.data(withJSONObject: filter, options: [.prettyPrinted, .sortedKeys])
         try FileManager.default.createDirectory(atPath: outputDirectory.string, withIntermediateDirectories: true)
         let filterFile = outputDirectory.appending("icu-data-filter.json")
