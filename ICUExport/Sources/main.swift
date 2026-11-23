@@ -70,9 +70,11 @@ extension ICUExport {
             print("[STEP ✅]: Found file")
             return
         }
+        // Only the host build makes the data file. Setting CPPFLAGS here would replace the
+        // makefile's own flags, include paths among them, and the build would fail.
         let result = try await Subprocess.run(
             .name("make"),
-            arguments: ["CPPFLAGS=\"-DU_PLATFORM_IS_DARWIN_BASED=1 -DU_DISABLE_RENAMING=1\""],
+            arguments: ["icuhost"],
             workingDirectory: icuDirectory,
             output: .currentStandardOutput,
             error: .currentStandardError
