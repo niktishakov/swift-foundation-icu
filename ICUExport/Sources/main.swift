@@ -66,7 +66,7 @@ struct ICUExport : AsyncParsableCommand {
 extension ICUExport {
     private func buildICUDataFile() async throws {
         print("[STEP ⏳]: Build ICU Data File")
-        guard icuDirectory.appending("build").isEmpty else {
+        guard !FileManager.default.fileExists(atPath: icuDirectory.appending("build").string) else {
             print("[STEP ✅]: Found file")
             return
         }
